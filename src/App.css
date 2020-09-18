@@ -18,7 +18,10 @@
   max-width: 100%;
 }
 .Navbar{
-  position: static;
+  position: sticky;
+  top:0;
+  background-color: white;
+  z-index:10;
   display: flex;
   justify-content: space-between;
   height: 45px;
