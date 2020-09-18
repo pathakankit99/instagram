@@ -1,0 +1,50 @@
+.PostCard{
+    margin: 20px;
+    border-style: solid;
+    border-color: #bdbcb9;
+    border-width:1px;
+    border-radius: 10px;
+}
+.PostCard h5{
+    font-weight: normal;
+}
+
+.PostSec1{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+.PostSec1Data{
+    padding-left: 10px;
+}
+
+.PostSec2 img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.PostSec3{
+    padding: 10px;
+}
+.PostSec4 form{
+    border-top: #bdbcb9;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    padding: 10px;
+}
+.PostSec4Input{
+    flex: 1;
+    margin-right: 30px;
+}
+.PostSec4Button{
+    flex: 0;
+}
+.comment{
+    padding: 10px;
+}
+.comment strong{
+    margin-right: 10px;
+}
