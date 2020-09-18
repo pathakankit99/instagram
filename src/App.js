@@ -6,7 +6,7 @@ import ImgUpload from './components/ImgUpload'
 import InstagramEmbed from 'react-instagram-embed'
 
 
-import {db,auth,storage} from './firebase'
+import {db,auth} from './firebase'
 
 function App() {
   const [posts, setPosts] = useState([])
