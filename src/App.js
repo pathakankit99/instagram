@@ -6,7 +6,6 @@ import ImgUpload from './components/ImgUpload'
 import InstagramEmbed from 'react-instagram-embed'
 
 
-import firebase from "firebase"
 import {db,auth,storage} from './firebase'
 
 function App() {

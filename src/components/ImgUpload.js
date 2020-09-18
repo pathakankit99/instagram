@@ -50,6 +50,9 @@ function ImgUpload({username}) {
                     setCaption('')
                     setImage(null)
                 })
+                setProgress(0)
+                    setCaption('')
+                    setImage(null)
             }
         )
     }
