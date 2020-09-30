@@ -176,17 +176,6 @@ function App() {
       }
         <div className="div">
           <h6 style={{textAlign: "center", marginBottom: 30}}> Made with 💓 by Ankit Pathak (AK99) </h6>
-        <InstagramEmbed
-          url='https://www.instagram.com/p/CEyWzc2lrSD/'
-          hideCaption={false}
-          containerTagName='div'
-          protocol=''
-          injectScript
-          onLoading={() => {}}
-          onSuccess={() => {}}
-          onAfterRender={() => {}}
-          onFailure={() => {}}
-        />
         </div>
         <div className="Posts">        
         {
@@ -202,16 +191,3 @@ function App() {
 }
 
 export default App;
-
-/*
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCOVPGyVhPVKR6b8eyPKg-LdHBsWlDbYBM",
-  authDomain: "ak99instagram.firebaseapp.com",
-  databaseURL: "https://ak99instagram.firebaseio.com",
-  projectId: "ak99instagram",
-  storageBucket: "ak99instagram.appspot.com",
-  messagingSenderId: "188615511118",
-  appId: "1:188615511118:web:92dd3ef79afd98552e471f",
-  measurementId: "G-KYT758SNLK"
-}; */
